@@ -1,1 +1,2 @@
-web: gunicorn P7_04_dashboardapp:server
+web: sh app/setup.sh && streamlit run app/app.py
+
